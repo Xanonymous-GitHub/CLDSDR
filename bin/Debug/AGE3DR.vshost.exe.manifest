@@ -1,0 +1,2055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AGE3DR.exe" version="2.4.0.35" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="age2dr.ico" asmv2:publisher="trusaidlin@gmail.com" co.v1:suiteName="AGE2DR" asmv2:product="世紀帝國二下載管理員" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AGE3DR" version="16.12.2.3035" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AGE3DR.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 資訊清單選項
+             如果要變更 Windows 使用者帳戶控制層級，請將 
+             requestedExecutionLevel 節點以下列其中之一取代。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 項目會停用檔案及登錄虛擬化。
+            如果您的應用程式需要針對回溯相容性進行這項虛擬化，請移除這個
+            項目。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AGE3DR.exe" size="385024">
+      <assemblyIdentity name="AGE3DR" version="16.12.2.3035" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>QMSmxWwdDSoZ5Y7qqM2lhZoku2k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="age2dr.ico" size="65021">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XqP356/7rfHJMd3qmYu/tasPgc4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="AGE3DR.exe.config" size="199">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GppnRcd+1cjh7BZx3bL16S8kPdA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\p1.png" size="9789">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>d4Xqv/rMRklSLsxbPQe4liseRYg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\p2.png" size="12232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dYjL+a6wK50Pm08cD4pMY728y2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part002.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ikgaght+a95yh+ctNs2kGZ/cX2E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part003.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HoF0DGr5dh7DE69Oaj6MPrcZkWU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part004.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AABmhKXkXqGR5Y2Aiu/gA/nA+HY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part005.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cycjbjERF8klPnC3BPmk25qfh70=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part006.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sNvCAmlJkgBZXC40SaGy6LIWy4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part007.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XAeTjKReau/3dpbd7/zCpF9A2cw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part008.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1sZg+zD3U1C/3gq7gEAwz+IxJwo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part009.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eACnPEhAoGRRa4NeDL4YCvBGR+0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part010.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8BQHKjmThTBulCol1674kTYT8kY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part011.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RzVi4ao+GZA5P6UmJSQX0b0IEPo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part012.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VW9uZPFckfJ4kQ51+KzQwcS7XaI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part013.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>F+cw62erAw1Wx399Vp3rF9pip54=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part014.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>58z7uqjpNESH7Gno66A/0k+HEEY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part015.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YKW/hL6F8oT/eRwjTqLB6mb8vaE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part016.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>z5Ju1Mddc1odRXGwuOpwJOn+1B0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part017.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Bi+AhHBk1gON1RuDOSkr3VyDxqk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part018.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5JG138lUhhmgW0yiKFYemPlyvSc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part019.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>efDL/r2wYwEojB0wh81dn5w28wI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part020.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mZGozZklKv4vEYynR6uOv6qjX98=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part021.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>H8sSlDBS/Ob4m4z+mtNiUJmbwgw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part022.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Oho3HrVV18xSYzrIS/Ycu4u6wec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part023.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>u/n6wiO0nOiXP5Bfe3cjNGFvqc0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part024.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>y3r/iUDtjAp8Gi65UnTZgaSztUA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part025.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0yV4cTupb2uYsRUCnMmtwmMYqF4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part026.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>25NcRBLbimcKn5G9EGX5o4bbNhA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part027.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>T6LnV7Qtst6f1uvTRhfwOZuXYfA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part028.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>v4AKlGtWAb8HomQVEjvdMy7lJDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part029.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bmsowr/LLyZFGsvNLOYHzXjMxQE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part030.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cMbSkzTV1kwxRCPeuAWvOVeq6hA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part031.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>I1dgOHu9K6yF351oQSi0MJ3Eg+0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part032.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3lTobrPHVRvhggUnZrEUP2M5psA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part033.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lmy+egv7iTDh/ZRlLUrbrDmlTFI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part034.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WHLLwDHkIltdje8nU90yfELTBeU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part035.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qNTJmtlB84q67yadGdgFGyVLS1g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part036.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KBM5smuBvMqLVWgnj2JmkqI37ds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part037.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fiG+lsX9XruGLrOjzya4aG+AOic=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part038.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uwWRwyVUeuLCUqm+GrOXNj8KJmw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part039.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NZHA3aPBSFl8VorovYAbqzoxbHo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part040.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ziAE9XFy9jKMKuhkTZ4KmRtOsO0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part041.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Mg5zCf5SBngvZSuoGX20jU6elL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part042.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>01xqt4i9MnX3xWjtMhbeDa24V28=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part043.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cgUO+2eJK9KsnHPnMM7R2uqvN9k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part044.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cQHoie6ZU7PhVbhx2WjZc0Bxb/8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part045.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Xt8BdCmQNAvls7c7r84xZcyeLMc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part046.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>L4h/3VYDdUPa4t067X8WKVqNVYQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part047.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oilU/zHB4fBu1DgQ0prCxhRncUk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part048.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ImHEGBqPcOzCf8H/yXGnG91cYDc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part049.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8WE7Dlm0FRuGtbRM8e4wYy+YHhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part050.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ySXVKR9tQmlBtFqqqJ3FYh2wpLY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part051.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RpZ0J3HaBpTYkCzkG3I881LVDjU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part052.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZAhXCFGnX3O+MBXAciFgwQmJTmI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part053.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZsQx6qffn4Ky9LxzMhe7WINUT1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part054.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WUNTvlutHbcA3k0l2JCaeb41RPY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part055.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>k0eJs+KmSqboZonkKp8Oy1hzSPI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part056.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9Abh76NS5IkyWJDvIfVDkgmGqII=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part057.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NtnYnRu9se5H7boMggboBvJzahU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part058.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zw6BaFZlvkQMeb8WH262cszGWrg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part059.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9+X5EckZUYwzPB5lUah3iADA3bw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part060.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1OumPAt1XzqhlDbckyc9k/t2Tr4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part061.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2c1JQ6cIbkgsXcQIPe1uh5hDxWk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part062.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JBMZFUh2nIUbELWoTOZ8GTmwDH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part063.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>08DswrLxijgeWj+0QaESIPizy80=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part064.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>K2GLsovgdyigvi6PRhNuOXmo4iY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part065.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>066zXruakuPWUpBJdk8e1qX6QMM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part066.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6NR5WynXbr0ygUS7lioV8BiMK3U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part067.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JUeqA9OxHV2G7UTmYTKBVITYgMU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part068.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nZLJCTYyof9t874oRQUDJEsj0rE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part069.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7fq7LK0XpRQL724bB6HyNqDADhA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part070.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XDXS7pzdzzE1ab36+oFlRt0XF7I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part071.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RC0bzr0M6jIOUwjhspSabh0A0Rs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part072.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+25MHaniL+Phikk4mdddaIiRLWQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part073.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4FJ5ry3xhBefLfq720h0ek0zkcQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part074.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>d3cb8A8vq+SNn4z6ThgvyyjC4fM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part075.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sAJiHbBplMdG9JYerONgZ7sgjC4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part076.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZmEwuhYLj1k6Ruac70wfn7qLEag=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part077.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/O/XCajuZqy6v8YRUVAyFCKZXug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part078.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cGVUKYOO5n97J3e5DPkNPmHqg4g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part079.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EadELsXRAYN9X79Pg1IweOkf+pk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part080.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IJESh/X6dWE+nEXmKR/nZlh+FPU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part081.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Mc4kR8C9qCA6HoaIV8uNOvuHszM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part082.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KMpCBs6heJj0zAeOMXWczDNUuxY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part083.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>amxZ23Lg/Ophz7JSaLCgmxyGol8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part084.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>84ze2s8lF4WPy6pvdXO/+4DlOIw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part085.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qQ93k0Jbgrpsss+cVFM6jD7RIqU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part086.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DuTZ4CUhWyqasvToGPwT++xpedU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part087.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yU3zntdMraWAIjniA6QgnGMbyPs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part088.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2iE8+0Zc4e0mr85IS/k/DQ0sZPs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part089.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>v8NrxyDd+vmEPSgFXBU1Xpm7s68=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part090.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ybn3mLoRFCEM3BU5YnD3Y+0OmYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part091.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YgVVnA2apnvUMTXQGBCMYal1TMc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part092.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xMF7nL6BsGem57IDMjokB5fa2ok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part093.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>l/IhDKfoXnt6DgIH64/vxzVmJdg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part094.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JxrICopqmhSY44Ut0/Lh45rfcyM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part095.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UUGT2crGvDxxNxKuxdQTL/wc5/8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part096.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IkOyY+NxyRJClY6K9pJr9VKZuK4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part097.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1uGuRQk7IKYYeTVoRmy02YDvaP0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part098.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>C+3OBCD+Y8KLfPrYggTdR4tNIJg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part099.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MmpR7rrqEMR1FXFyh+8lgAKLfWc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part100.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>n/jhI7RhlrHUUDEcQ92/0kpRHeg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part101.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5WX5Dv+LXRt1cBDdvTfcr9bM34Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part102.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FMG+sIM9CD/lotxLzIYmgGphAtA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part103.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>l8xJLgOAmCDU/mNWLqVtMOLQc6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part104.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wXuQ5649wa/I1usx8aTwbsDiQvM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part105.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zhElhYTWTogAd2sVegQQAAHNs9g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part106.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nVUCsw33dogHDfreUL5MLH+yRZk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part107.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>r6dZZEh16reWpASJ+4SbjpxbRo4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part108.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>c6uYY7Q6iYqkEHKX7Qa5ThJu+7o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part109.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gc7y/Ua9Jr0snMFrfKqekOl2+LM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part110.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1JMWZeRiJy2+pJH0fJPavpjMKaw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part111.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MyYdQAeJrV0afmhlQTyX9hTFis4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part112.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FsxtUFDKj/MA5zmDPBKj9/rSDqg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part113.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N3u2bOkDGy9XEdjxZy36bOL9nxc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part114.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YlAIDCBpjmbXIKLsry8Jygo40gU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part115.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dsg+lMgg8BdDxqOlL2HL0jiEjU0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part116.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NZ+2Dc7rye2meYLgLfZsmaG7nfQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part117.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tnoxVs+K/crnrISWRVEVQ2cbR3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part118.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Cf5tUC18zW4WzEnDeR1iIj9b19s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part119.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9WbPMaDPIce5LozXzy85EY5tfEE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part120.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5F96mZF16PrbLvMQj5PXov4UE70=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part121.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BUUdpTdW1L0c0nfJILQuUuc00Vk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part122.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YsVGpVn4LwTF803/55y40u9TgXM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part123.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>S/HLhxuLsrtCU08Xg5qgS90GnsY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part124.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UHmVELRd78yihgvEqD6ica/fXew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part125.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>R2tMJDkahujlsLWZ4Idida12T0E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part126.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gmeN8PEK71dqURPvXyAhRKDF3RU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part127.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KTFD66XdB4ZQwUe+owQCiMew7gM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part128.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tYHOrzOj1k7EdX6OKFLM7gPubVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part129.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OOuy7YbrpcLg7zPvHJqyso5dRw0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part130.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0k7qlgB9i8M3LOjQY3cZP1x6rhc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part131.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GU7h84qbgKeIjiIpDNLkdS1IsDg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part132.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>y2K7ZpTQ3zH53uctzGTidZPtvzw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part133.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pv4aB96pOKVYIa++9jl2MuSFBcA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part134.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eUlaQTkucHJqPdoH2pCgsmfbJIQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part135.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4/4oB+csVaOZ5VFCx962bqFbkYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part136.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cQaOEV8OgmOrL1nNCus+xd830Yo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part137.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>T/wvsXArrQpLsAMbt9ssTrGeiVU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part138.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pdVTI26mD/BsHWTCFhu1cUIhnQw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part139.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>id2eW1dYkSDBjhcDaOYkLFLx+Hg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part140.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>F7eSMh2QcxxbM1xb1SJnVql2Hnk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part141.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pv+BgxYsT8inlApa83hN5WHULAU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part142.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uiDhB84CRrlcvPFbnm++ljBK4XE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part143.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/Q2otehUKz2lai+AGH/p00TX78o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part144.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FMJKea9LMNtVWs+vw8biTVSSMgE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part145.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nYgG1Rv8UfHUwZ65K7inznnftlo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part146.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9AOG49WuBg/k3tmSk2cbVG+0BU8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part147.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LqxCgARdQfAidLM87jNAcpPhenw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part148.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Iobe/5v1ckFIf7X16NBNa8g58Ss=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part149.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Bpmhg+ncHk8cDOiylMQu5048FY4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part150.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tNLzyKsIguKdmIOBLEhVo1Gye54=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part151.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FxmdWH0PfqmZ4bvQNcxzVUkelXo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part152.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aWlmKQvWe3UGa+X+2R+znAwiaIE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part153.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ei8z9eYWBjGHHmEMAq5jNUejB2k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part154.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HY9uAKIJOk6Vu+067jarkJ76nZc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part155.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0UXmyNSuk1N61rye50o3YF3xfZA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part156.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6d1YzaRPRpTpse1CDlHonzBeISY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part157.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mn80ptWRT6vGHLOdtiR8BMx71NU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part158.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wRFtZxsDx2ZStOu/APWt5w4k1ac=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part159.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9IrwwtTtd5rOloggDPcCzU17itk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part160.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iYa1kaoyeKvyYlP3vGCiZu96Nls=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part161.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Oaio4HQ8nUAFDmUaPIFpAsKBJTc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part162.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>E7UV6chn57hBTMXHkbF3EDw9wdY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part163.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>v1JBxoQI3PN9J4oRMoedFVQGaL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part164.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>s0PiUBfTkmf7DkqUQlvpYKU/bI4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part165.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>n9rxP5Zp5Y9YM2PQQQV7afIN560=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part166.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>b9SRd1S8smPwHbi2rqbKiKQ2Fjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part167.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>awK8zRTOegP7E2uWgTPxqMNTd0Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part168.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bTFCOWt+9/xOw9Sj+3GId1oxSgg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part169.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8tGXdMuEhq9pz+oHmKRAXKLcV/o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part170.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0ovY503WSzIQ5QMLo3itruVq+yE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part171.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Tkjv9L6Zk6J2wHKTBDQGBSH1PwU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part172.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YDvJZdSygyPT4miq4Sn4m1tXm58=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part173.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iOfaV90huh21o2B7ysFgjKY86Cg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part174.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pnewLyECNnTj4C/sHJQB1iuQih0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part175.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>k2ODdcJrc9Nl2CHmuP5ejSh5cgE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part176.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/t+4lTt7W5empxDPNe1cJ3cfmkg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part177.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>feWIuB4e/bzXNu2HwSdaesVPiJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part178.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2KjQJV4c8nauWCst1qqLASVcVqw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part179.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KlTltuYpfdaXrtkcpa90wN1jqi4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part180.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>alQjRZQSaexuwH061pTcw5Zi1Vw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part181.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EHT56ya8+aVnkfRtpjN7v32M4Lc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part182.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GEHtBblD1mMKk388osNgfPvrDwQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part183.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>z91VVVSiqyp1Zi63eRnW8IAVLO0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part184.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>t+f0XWgZmyfhGmW8kA3BB1PEG/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part185.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZIEpPTIGVBsZltZIDl7cDru/NzY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part186.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LSollyvJdtvBhUnqS1HQoMAfuuc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part187.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BMTX26aYGZrsKsQVWZKLr00kVZ0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part188.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Qa5g0WARiormLNP0c4sGHUyrQ8M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part189.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PWOd4zGtGgdo6F8bPLLiCaeTbHQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part190.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ul54GbI9rhYRJ4JsjqhsiS7yxn8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part191.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FCUliV5TSk2ZjY2Pe7461WK+TLU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part192.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GTQgYg53JiSBCwCILiBig23qrsc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part193.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>utRWLn4dNBJa9eENFMOfODWBKI0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part194.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NwtXuaYAiyk8l/o9ZH9UyHeKaX8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part195.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bVxRpnONMvgr7pUfRFngSovQX8M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part196.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mTc71Z4/Hw2dobyRXJGitCHWLrg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part197.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>R9K0uTgk1k0xcNEiTnhuCM8vl1g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part198.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zDBfxcj28qjfhjyFObBTFnE06O0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part199.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qKtDoCBL58MX+DOHPlWdgT1gHqI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part200.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qCo1DgfBe5ElofjSEmMBEuSBd8k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part201.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>I8URfveYJm4AI9GOJd7okCL9UnU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part202.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nNwIhSAMxP+/KmUz8raW5F/3+gY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part203.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sF0n0Ak5nxRynu5MQb2IWt0e2tI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part204.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>O+kbScqJeyBQXFnAO/GO9Wq1aMU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part205.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>d5t5a2v6zxsQXninPe9S42N1vWM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part206.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>v9zrzugBHvAlFdTnGb2CVRw08sY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part207.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DCdD8XsTP9DucDYlJJKixinKIww=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part208.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3jbhFGd9M7WWX0C3sOQr8/JQsX8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part209.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UnVk1vR2DX40Z/g4gN4MMRozg8Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part210.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>x2rNzYvHmXjluH4U6s+edXLMnBw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part211.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Avr5a7PBGiL9w398N+mVL2xkhsw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part212.rar" size="2097152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>x6oE14an3qnb9Tn71i+7ZjdJpyk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PACK-age2\AGEPACKS.part213.rar" size="1482832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/Iz6h30ls/Tu6S9161bEt6avg/o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\x1.png" size="21427">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DsISNc0w8Ww2GIvzukUKmeB1N40=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\x2.png" size="16337">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>I6wN58c+qJXjuRLnq8aBc7rcjJo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\x3.png" size="8766">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>igdt0YnuqGNX/jQDWBlXgbUiOLo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\x4.png" size="13187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>q6n+WZsjyiugYIZnpHAB8NV0wsg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 這個應用程式測試所在及可配合使用的
+           Windows 版本清單。請取消註解適當的項目，Windows 將會
+           自動選取最相容的環境。-->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>

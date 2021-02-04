@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>apppublish\|apppblish\|ftp://192.168.1.5/Xanonymous/|v:\apppublish\|ftp://192.168.1.3/Xanonymous/</PublishUrlHistory>
+    <InstallUrlHistory>https://drive.google.com/drive/folders/0B8_e0aXbv6sOMDRYVnhuX0otWWM/|https://docs.google.com/uc%3fauthuser=0&amp;id=0B8_e0aXbv6sOMDRYVnhuX0otWWM&amp;export=download/|https://www.googledrive.com/host/0B8_e0aXbv6sOMDRYVnhuX0otWWM/|https://drive.google.com/drive/folders/0B8_e0aXbv6sOMDRYVnhuX0otWWM%3fusp=sharing/|https://www.googledrive.com/host/0B5zyyHbFNU_FTy1laGZYcFFPZEE/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>https://drive.google.com/drive/folders/0B8_e0aXbv6sOMDRYVnhuX0otWWM/|https://docs.google.com/uc%3fauthuser=0&amp;id=0B8_e0aXbv6sOMDRYVnhuX0otWWM&amp;export=download/|https://www.googledrive.com/host/0B8_e0aXbv6sOMDRYVnhuX0otWWM/|https://www.googledrive.com/host/0B8_e0aXbv6sOSWR4aDRQY0syQ3c/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>zh-TW</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

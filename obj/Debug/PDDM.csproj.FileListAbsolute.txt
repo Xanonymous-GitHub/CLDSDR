@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\downloadmanager.downloadmanager.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\PDDM.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\bin\Debug\GET-PowerDirect.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\GET_PowerDirect.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\bin\Debug\GET-PowerDirect.exe.manifest
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\bin\Debug\GET-PowerDirect.application
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\bin\Debug\GET-PowerDirect.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\bin\Debug\GET-PowerDirect.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\GET-PowerDirect.TrustInfo.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\GET-PowerDirect.exe.manifest
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\GET-PowerDirect.application
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\GET-PowerDirect.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\GET-PowerDirect.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\PDDM\obj\Debug\PDDM.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\bin\Debug\GET-PowerDirect.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\GET-PowerDirect.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\GET-PowerDirect.pdb

@@ -1,0 +1,17 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\AGE2DR.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\downloadmanager.downloadmanager.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\downloadmanager.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\AGE2DR.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\bin\Debug\AGE2DR.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\bin\Debug\AGE2DR.exe.manifest
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\bin\Debug\AGE2DR.application
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\bin\Debug\AGE2DR.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\bin\Debug\AGE2DR.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\AGE2DR.TrustInfo.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\AGE2DR.exe.manifest
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\AGE2DR.application
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\AGE2DR.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AGE2DR\obj\Debug\AGE2DR.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\bin\Debug\AGE2DR.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\AGE2DR.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\AGE2DR.pdb

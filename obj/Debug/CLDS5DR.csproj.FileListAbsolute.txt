@@ -1,0 +1,14 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\bin\Debug\CLDS5DR.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\CLDS5DR.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\downloadmanager.downloadmanager.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\CLDS5DR.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\bin\Debug\CLDS5DR.exe.manifest
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\bin\Debug\CLDS5DR.application
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\bin\Debug\CLDS5DR.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\bin\Debug\CLDS5DR.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\downloadmanager.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\CLDS5DR.TrustInfo.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\CLDS5DR.exe.manifest
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\CLDS5DR.application
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\CLDS5DR.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CLDS5DR\obj\Debug\CLDS5DR.pdb
